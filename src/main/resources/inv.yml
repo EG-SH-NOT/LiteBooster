@@ -1,0 +1,73 @@
+title: "Бустеры"
+size: 44
+items:
+  dekor-1:
+    name: " "
+    material: ORANGE_STAINED_GLASS_PANE
+    slot:
+      - 8
+      - 18
+      - 27
+      - 17
+      - 26
+      - 35
+  dekor-2:
+    name: " "
+    material: BLACK_STAINED_GLASS_PANE
+    slot:
+      - 0
+      - 8
+      - 36
+      - 17
+      - 36
+      - 44
+  exp:
+    material: EXPERIENCE_BOTTLE
+    name: "&#94FF8BБустер Опыта"
+    price: 199
+    action: "exp" # Не менять
+    hide-attribute: true
+    ench: true
+    slot: 21
+    lore:
+      - ""
+      - " &7Эффект:"
+      - " &#FFC900- увеличивает количество"
+      - "&0.&7 &7 &7 &#FFC900выпадаемых монет с мобов на 250%;"
+      - " &#FFC900- действует 24 часа с момента приобретения."
+      - ""
+      - " &#FF7000▶&#E7E7E7 Купить за&#FB0FD4 199 сапфиров ☀"
+      - "   &#E7E7E7 Текущий бустер: &#FF7000%litebooster_exp%"
+  cult:
+    material: CARROT
+    name: "&#FF7000Бустер Культур"
+    price: 199
+    action: "cult" # Не менять
+    hide-attribute: true
+    ench: true
+    slot: 22
+    lore:
+      - ''
+      - ' &7Эффект:'
+      - ' &#FF7000- увеличивает количество выпадаемых культур'
+      - ' &#FF7000  (какао-бобы, нарост, ломтики арбуза, морковь, пшеница,'
+      - ' &#FF7000  картошка, свёкла, сладкие ягоды, плод хоруса) на 25%;'
+      - ' &#FF7000- действует 24 часа с момента приобретения.'
+      - ''
+      - ' &#FF7000▶&#E7E7E7 Купить за&#FB0FD4 199 сапфиров ☀'
+      - '   &#E7E7E7 Текущий бустер: &#FF7000- - -'
+  all:
+    material: EMERALD
+    name: "&#7EF7FFБустер ВСЁ и СРАЗУ"
+    price: 599
+    action: "all" # Не менять
+    hide-attribute: true
+    ench: true
+    slot: 24
+    lore:
+      - ''
+      - ' &7Эффект:'
+      - ' &#7EF7FF- все бустеры в одном;'
+      - ' &#7EF7FF- действует 24 часа с момента приобретения.'
+      - ''
+      - ' &#FF7000▶ &#E7E7E7Купить за&#FB0FD4 599 сапфиров ☀'

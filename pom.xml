@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId></groupId>
-  <artifactId></artifactId>
-  <version></version>
+  <groupId>org.InfernWorld</groupId>
+  <artifactId>LiteBooster</artifactId>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name></name>
@@ -23,8 +23,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <source>${java.version}</source>
-          <target>${java.version}</target>
+          <source>16</source>
+          <target>16</target>
         </configuration>
       </plugin>
       <plugin>
@@ -49,7 +49,35 @@
     </resources>
   </build>
 
-  <repositories></repositories>
+  <repositories>
+    <repository>
+      <id>papermc-repo</id>
+      <url>https://repo.papermc.io/repository/maven-public/</url>
+    </repository>
+    <repository>
+      <id>rosewood-repo</id>
+      <url>https://repo.rosewooddev.io/repository/public/</url>
+    </repository>
+  </repositories>
 
-  <dependencies></dependencies>
+  <dependencies>
+    <dependency>
+      <groupId>com.destroystokyo.paper</groupId>
+      <artifactId>paper-api</artifactId>
+      <version>1.16.5-R0.1-SNAPSHOT</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.32</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.black_ixx</groupId>
+      <artifactId>playerpoints</artifactId>
+      <version>3.2.6</version>
+      <scope>provided</scope>
+    </dependency>
+  </dependencies>
 </project>

@@ -1,4 +1,4 @@
-package org.infernworld.battleroyale.util;
+package org.infernworld.litebooster.util;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

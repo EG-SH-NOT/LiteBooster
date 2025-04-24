@@ -2,3 +2,6 @@ name: LiteBooster
 version: '${project.version}'
 main: org.infernworld.litebooster.LiteBooster
 api-version: '1.16'
+commands:
+  litebooster: {}
+  booster: {}

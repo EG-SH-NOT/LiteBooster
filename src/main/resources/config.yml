@@ -1,0 +1,21 @@
+message:
+  sucess-give: "&fВыдан бустер %booster% игроку %player%"
+  no-point: "Недостаточно донат валюты!"
+  active-booster: "Вы уже имеете этот бустер!"
+list:
+  exp:
+    multiply: 0.25
+    boost-time: 86400
+  cult:
+    multiply: 0.25
+    boost-time: 86400
+    inclusions:
+      - COCOA_BEANS
+      - NETHER_WART
+      - MELON_SLICE
+      - CARROT
+      - WHEAT
+      - POTATO
+      - BEETROOT
+      - SWEET_BERRIES
+      - CHORUS_FRUIT
